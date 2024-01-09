@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void ace(View view) {
-        int diceRoll = rand.nextInt(4) + 1;
+        int diceRoll = rand.nextInt(3) + 1;
         if (diceRoll == 1) img.setImageResource(R.drawable.img1);
         if (diceRoll == 2) img.setImageResource(R.drawable.img2);
         if (diceRoll == 3) img.setImageResource(R.drawable.img3);
